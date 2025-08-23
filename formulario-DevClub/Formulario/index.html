@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - CodeClube</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="https://formsubmit.co/meuemail@gmail.com" method="POST">
+        <h1>Formulário de contato</h1>
+
+        <input type="hidden" name="_next" value="https://obrigado-pag.netlify.app/">
+
+        <input type="text" name="name" placeholder="Nome" required>
+        <input type="text" name="email" placeholder="E-mail" required>
+        <textarea name="message" placeholder="Digite sua mensagem..." required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
